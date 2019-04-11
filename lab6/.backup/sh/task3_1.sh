@@ -1,9 +1,7 @@
 #!/bin/bash
 n=$1
 if [ $n -gt 12 ]
-then echo "ERROR. OUT OF RANGE."
-elif [ $n -lt 1 ]
-then echo -n
+then "ERROR. OUT OF RANGE."
 else
 	echo "n = $n"
 	for (( i=0; i<$n; i++ ))
